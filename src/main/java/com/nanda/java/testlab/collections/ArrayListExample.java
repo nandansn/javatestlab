@@ -29,6 +29,10 @@ import com.nanda.java.testlab.entity.Student;
  *         remaining arraylist blank places are not specified to null. Saying so
  *         because I have myself gone through this situation and eclipse made me
  *         look into this change of JAVA 8.
+ * 
+ *         List Interface is the subinterface of Collection.It contains methods
+ *         to insert and delete elements in index basis.It is a factory of
+ *         ListIterator interface.
  */
 public class ArrayListExample {
 
@@ -71,9 +75,9 @@ public class ArrayListExample {
 	}
 
 	genericStudents.removeAll(students);
-	
+
 	// update the list element
-	genericStudents.set(0, new Student("valarmathi",16));
+	genericStudents.set(0, new Student("valarmathi", 16));
 	System.out.println("****************************************************");
 	System.out.println("Total Students:" + genericStudents.size());
 	for (Student studentDO : genericStudents) {

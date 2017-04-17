@@ -7,19 +7,16 @@ package com.nanda.java.testlab.entity;
  * @author Nandakumar 13-Apr-2017
  *
  */
-public class Student {
+public class Book {
 
     String name;
-    Integer id;
 
     /**
      * @param name
-     * @param id
      */
-    public Student(String name, int id) {
+    public Book(String name) {
 	super();
 	this.name = name;
-	this.id = id;
     }
 
     /*
@@ -29,7 +26,7 @@ public class Student {
      */
     @Override
     public String toString() {
-	return "Student [name=" + name + ", id=" + id + "]";
+	return "Book [name=" + name + "]";
     }
 
 }

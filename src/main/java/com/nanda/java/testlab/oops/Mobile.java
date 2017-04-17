@@ -10,6 +10,6 @@ package com.nanda.java.testlab.oops;
  */
 public interface Mobile extends Phone {
     
-    public void sendSMS();
+   
 
 }

@@ -13,7 +13,6 @@ public class Nokia implements Mobile{
     /* (non-Javadoc)
      * @see com.nanda.java.testlab.oops.Phone#dial()
      */
-    @Override
     public void dial() {
 	// TODO Auto-generated method stub
 	
@@ -24,7 +23,6 @@ public class Nokia implements Mobile{
     /* (non-Javadoc)
      * @see com.nanda.java.testlab.oops.Phone#drop()
      */
-    @Override
     public void drop() {
 	// TODO Auto-generated method stub
 	
@@ -35,7 +33,6 @@ public class Nokia implements Mobile{
     /* (non-Javadoc)
      * @see com.nanda.java.testlab.oops.Mobile#sendSMS()
      */
-    @Override
     public void sendSMS() {
 	// TODO Auto-generated method stub
 	System.out.println("Sending message..");
