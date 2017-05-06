@@ -57,11 +57,11 @@ public class InterfaceExample {
 
 	Mobile nokia = new Nokia();
 
-	nokia.display();
+	/*nokia.display();
 	nokia.dial();
 	Phone.ringing();
 	nokia.drop();
-	nokia.sendSMS();
-    }
+	//nokia.sendSMS();
+*/    }
 
 }

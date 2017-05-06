@@ -31,11 +31,11 @@ public class EmployeeTreeSet implements Comparable<EmployeeTreeSet> {
      * 
      * @see java.lang.Comparable#compareTo(java.lang.Object)
      */
-    @Override
+    /*@Override
     public int compareTo(EmployeeTreeSet o) {
 	// TODO Auto-generated method stub
 	return this.name.compareTo(o.name);
-    }
+    }*/
 
     /* (non-Javadoc)
      * @see java.lang.Object#toString()
@@ -43,6 +43,14 @@ public class EmployeeTreeSet implements Comparable<EmployeeTreeSet> {
     @Override
     public String toString() {
 	return "EmployeeTreeSet [name=" + name + "]";
+    }
+
+    /* (non-Javadoc)
+     * @see java.lang.Comparable#compareTo(java.lang.Object)
+     */
+    public int compareTo(EmployeeTreeSet arg0) {
+	// TODO Auto-generated method stub
+	return 0;
     }
     
     

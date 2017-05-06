@@ -15,7 +15,15 @@ public class StudentComparatorExample implements Comparator<Student> {
     /* (non-Javadoc)
      * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
      */
-    @Override
+    public int compare(Student arg0, Student arg1) {
+	// TODO Auto-generated method stub
+	return 0;
+    }
+
+    /* (non-Javadoc)
+     * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
+     */
+   /* @Override
     public int compare(Student o1, Student o2) {
 	// TODO Auto-generated method stub
 	
@@ -29,7 +37,7 @@ public class StudentComparatorExample implements Comparator<Student> {
 	}
 	
 	//return o2.id.compareTo(o1.id);
-    }
+    }*/
     
   
 }

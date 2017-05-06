@@ -51,6 +51,8 @@ import java.util.HashSet;
 public class HashSetExample {
 
     public static void main(String[] args) {
+	
+	Collection
 
 	// 1. constructor
 	HashSet<String> hasSet = new HashSet<String>(); // 16 spaces created.

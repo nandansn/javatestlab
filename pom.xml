@@ -1,7 +1,38 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-     <modelVersion>4.0.0</modelVersion>
-     <groupId>com.nanda.java.testlab</groupId>
-     <artifactId>java-test-lab</artifactId>
-     <version>0.0.1-SNAPSHOT</version>
-     <name>Tweaking Java</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.nanda.java.testlab</groupId>
+	<artifactId>java-test-lab</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Tweaking Java</name>
+
+	<dependencies>
+
+
+		<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
+		<!-- This library has api to create rest client and manipulate request, 
+			response and header objects -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.18.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.nanda.testtracker.dal</groupId>
+			<artifactId>test-tracker-dal</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- This library has api to convert json to java object and java to json 
+			object -->
+		<!-- <dependency> <groupId>com.owlike</groupId> <artifactId>genson</artifactId> 
+			<version>1.4</version> </dependency> -->
+
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-json</artifactId>
+			<version>1.18.1</version>
+		</dependency>
+	</dependencies>
 </project>
