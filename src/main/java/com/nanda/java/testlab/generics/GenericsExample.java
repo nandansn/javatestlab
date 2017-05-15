@@ -41,11 +41,10 @@ import java.util.Set;
  *         type argument types that are supertypes of String.
  * 
  *         Use the <? extends T> wildcard if you need to retrieve object of type
- *         T from a collection. 
- *         Use the <? super T> wildcard if you need to put
- *         objects of type T in a collection. 
- *         If you need to satisfy both things, well, don’t use any wildcard. As simple as it is. 
- *         In short, remember the term PECS. Producer extends Consumer super. Really easy
+ *         T from a collection. Use the <? super T> wildcard if you need to put
+ *         objects of type T in a collection. If you need to satisfy both
+ *         things, well, don’t use any wildcard. As simple as it is. In short,
+ *         remember the term PECS. Producer extends Consumer super. Really easy
  *         to remember.
  * 
  *         What is not allowed to do with Generics?
@@ -57,36 +56,80 @@ import java.util.Set;
  *         You can’t create Generic exception class // public class
  *         GenericException<T> extends Exception // not allowed.
  * 
+ *         Main Purpose of generics resolve type-casting problems provide
+ *         type-safety
+ * 
+ *         type-safety and type-casting both are applicable at compile time.
+ *         hence generics concept also applicable only at compile time but not
+ *         at run time. at the time of compilation as a last step, generics
+ *         syntax will be removed and hence for the jvm generics syntax wont be
+ *         available.
+ * 
  *
  */
 public class GenericsExample {
-    
+
     public static void main(String[] args) {
-	
+
 	List<String> names = new ArrayList<String>();
 	names.add("Nanda");
 	names.add("Kumar");
-	//names.add(1); // Not allowed complite time error
-	
+	// names.add(1); // Not allowed complite time error
+
 	// for each iteration
 	for (String string : names) {
 	    System.out.println(string);
 	}
-	
-	Map<Integer,String> employees = new HashMap<Integer, String>();
+
+	Map<Integer, String> employees = new HashMap<Integer, String>();
 	employees.put(1, "Nanda");
 	employees.put(2, "Kumar");
 	employees.put(3, "Dinesh");
 	employees.put(4, "Gnana");
-	
-	Set<Map.Entry<Integer,String>> employeesEntry = employees.entrySet();
-	
+
+	Set<Map.Entry<Integer, String>> employeesEntry = employees.entrySet();
+
 	for (Entry<Integer, String> entry : employeesEntry) {
-	    
+
 	    System.out.println(entry.getKey());
 	    System.out.println(entry.getValue());
-	    
+
 	}
+
+	// At compile time <String> will be removed so there wont be any runtime
+	// exception. generics concept applicable only at the compile time.
+	List list = new ArrayList<String>();
+
+	list.add(10);
+	list.add(10.5);
+	list.add("Nanda");
+
+	for (int i = 0; i < list.size(); i++) {
+
+	    System.out.println(list.get(i));
+	}
+
+	// following declarations are equal. for these arraylist objects we can
+	// add only string type of objects.
+	List<String> listone = new ArrayList<String>();
+	List<String> listTwo = new ArrayList();
+
     }
+    
+    /**
+     * At compile time,
+     * 		compile code normally.
+     * 		remove generic syntax.
+     *          compile resultant code.
+     * 
+     * @param al
+     */
+    public static void methodOne(ArrayList<String> al) {
+
+    }
+
+    /*public static void methodOne(ArrayList<Integer> al) {
+
+    }*/
 
 }

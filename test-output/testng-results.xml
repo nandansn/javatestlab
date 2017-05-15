@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="182881" started-at="2017-05-15T03:25:12Z" finished-at="2017-05-15T03:28:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="182881" started-at="2017-05-15T03:25:12Z" finished-at="2017-05-15T03:28:15Z">
+      <class name="com.nanda.java.data.structures.implementatons.MyLinkedListTest">
+        <test-method status="PASS" signature="addTest()[pri:0, instance:com.nanda.java.data.structures.implementatons.MyLinkedListTest@10eb4b4]" name="addTest" duration-ms="46" started-at="2017-05-15T08:55:12Z" finished-at="2017-05-15T08:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="printTest()[pri:0, instance:com.nanda.java.data.structures.implementatons.MyLinkedListTest@10eb4b4]" name="printTest" duration-ms="182757" started-at="2017-05-15T08:55:12Z" finished-at="2017-05-15T08:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTest -->
+        <test-method status="PASS" signature="testEmpty()[pri:0, instance:com.nanda.java.data.structures.implementatons.MyLinkedListTest@10eb4b4]" name="testEmpty" duration-ms="0" started-at="2017-05-15T08:58:15Z" finished-at="2017-05-15T08:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmpty -->
+        <test-method status="PASS" signature="testSize()[pri:0, instance:com.nanda.java.data.structures.implementatons.MyLinkedListTest@10eb4b4]" name="testSize" duration-ms="0" started-at="2017-05-15T08:58:15Z" finished-at="2017-05-15T08:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSize -->
+      </class> <!-- com.nanda.java.data.structures.implementatons.MyLinkedListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
