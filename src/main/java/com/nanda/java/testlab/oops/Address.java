@@ -13,6 +13,10 @@ public class Address {
     String city;
     String state;
     String country;
+    
+    Address(){
+	
+    }
 
     Address(String street, String city, String state, String country) {
 	this.street = street;

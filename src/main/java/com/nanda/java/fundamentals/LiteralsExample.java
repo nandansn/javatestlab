@@ -1,13 +1,13 @@
 /**
  * 
- */
+ *//*
 package com.nanda.java.fundamentals;
 
-/**
+*//**
  * @author Nandakumar 
  * 13-May-2017
  *
- */
+ *//*
 public class LiteralsExample {
     
     public static void main(String[] args) {
@@ -62,3 +62,4 @@ public class LiteralsExample {
     }
 
 }
+*/

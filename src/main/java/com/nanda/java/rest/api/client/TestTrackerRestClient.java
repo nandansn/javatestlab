@@ -1,11 +1,11 @@
 /**
  * 
- */
+ *//*
 package com.nanda.java.rest.api.client;
 
 import javax.ws.rs.core.MediaType;
 
-import com.nanda.testtracker.dal.model.TestCase;
+//import com.nanda.testtracker.dal.model.TestCase;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.GenericType;
@@ -13,10 +13,10 @@ import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
 import com.sun.jersey.api.json.JSONConfiguration;
 
-/**
+*//**
  * @author Nandakumar 23-Apr-2017
  *
- */
+ *//*
 public class TestTrackerRestClient {
 
     public static Client getRestClient() {
@@ -54,3 +54,4 @@ public class TestTrackerRestClient {
        }
 
 }
+*/

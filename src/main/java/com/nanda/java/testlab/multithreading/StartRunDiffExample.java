@@ -1,16 +1,16 @@
 /**
  * 
- */
+ *//*
 package com.nanda.java.testlab.multithreading;
 
-/**
+*//**
  * @author Nandakumar 
  * 29-Apr-2017
  * 
  * t.run() - will get executed main thread.
  * t.start() - new thread will be created. and run method will be called from run method.
  *
- */
+ *//*
 public class StartRunDiffExample {
     
     public static void main(String[] args) {
@@ -49,3 +49,4 @@ public void run(){
 	}
     }
 }
+*/

@@ -69,6 +69,7 @@ public class LinkedListExample {
     public static void main(String[] args) {
 
 	LinkedList<Book> books = new LinkedList<Book>();
+	
 
 	// adding element
 	books.add(new Book("Java"));
@@ -96,6 +97,8 @@ public class LinkedListExample {
 
 	// pushing the book to the stack
 	books.push(new Book(".net"));
+	
+	
 
 	System.out.println("***************");
 	for (Book book : books)

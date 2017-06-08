@@ -1,11 +1,11 @@
 /**
  * 
- */
+ *//*
 package com.nanda.java.testlab.exceptions;
 
 import com.nanda.java.testlab.oops.Employee;
 
-/**
+*//**
  * @author Nandakumar 12-Apr-2017
  * 
  *         Java Multi catch block
@@ -20,7 +20,7 @@ import com.nanda.java.testlab.oops.Employee;
  *         general i.e. catch for ArithmeticException must come before catch for
  *         Exception
  *
- */
+ *//*
 public class MultipleCatchExample {
 
     public static void main(String... args) {
@@ -52,3 +52,4 @@ public class MultipleCatchExample {
 
     }
 }
+*/

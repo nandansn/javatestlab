@@ -20,19 +20,19 @@ public interface Phone {
      * it default method.
      */
 
-    default void display() {
+   /* default void display() {
 
 	System.out.println("This is phone");
-    }
+    }*/
 
     /**
      * Java 8 Static Method in Interface
      * 
      * Since Java 8, we can have static method in interface
      */
-    static void ringing() {
+   /* static void ringing() {
 
 	System.out.println("Phone is rining..");
-    }
+    }*/
 
 }

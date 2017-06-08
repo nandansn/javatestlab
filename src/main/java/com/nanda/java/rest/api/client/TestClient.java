@@ -1,6 +1,6 @@
 /**
  * 
- */
+ *//*
 package com.nanda.java.rest.api.client;
 
 import java.util.List;
@@ -10,13 +10,13 @@ import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.GenericType;
 
-/**
+*//**
  * @author Nandakumar 22-Apr-2017
  *
- */
+ *//*
 public class TestClient {
 
-    /*
+    
      * public static void main(String[] args) {
      * 
      * ClientConfig clientConfig = new DefaultClientConfig();
@@ -39,7 +39,7 @@ public class TestClient {
      * else System.out.println("Error in getting test case details.");
      * 
      * }
-     */
+     
 
     public static void main(String[] args) {
 
@@ -64,3 +64,4 @@ public class TestClient {
     }
 
 }
+*/

@@ -75,6 +75,8 @@ public class TreeSetExample {
 	ts.add(2);
 	ts.add(1);
 	ts.add(4);
+	
+	
 
 	for (int i : ts)
 	    System.out.println(i);
