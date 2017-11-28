@@ -1,15 +1,33 @@
 package com.nanda.java.testlab.generics;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GenericsTest {
 	
 	public static void main(String[] args) {
 		
-		MyStack<Integer> stack = new MyStack<Integer>();
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("nanda");
 		
-		stack.add(10);
-		stack.add(11);
+		List<Integer>arr = new ArrayList<Integer>();
 		
-		stack.display();
+		
+		
+		
+	}
+	
+	public static void methodOne(ArrayList<? extends Number> al) {
+		
+		al.get(0);
+	}
+	
+	public static void methodTwo(ArrayList<? super Integer> al) {
+		
+		al.add(new Integer("10"));
+		
 	}
 
+	
+	
 }
