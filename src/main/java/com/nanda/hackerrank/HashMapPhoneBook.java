@@ -34,6 +34,8 @@ public class HashMapPhoneBook {
 	    }
 
 	    phoneBook.put(nameHashCode, name+"="+phone);
+	    
+	   
 	    in.nextLine();
 	}
 	while (in.hasNext()) {
