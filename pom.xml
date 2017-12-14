@@ -22,11 +22,8 @@
 			<version>1.18.1</version>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>com.nanda.testtracker.dal</groupId>
-			<artifactId>test-tracker-dal</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.nanda.testtracker.dal</groupId> <artifactId>test-tracker-dal</artifactId> 
+			<version>0.0.1-SNAPSHOT</version> </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 		<dependency>
@@ -46,5 +43,26 @@
 			<artifactId>jersey-json</artifactId>
 			<version>1.18.1</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+
 	</dependencies>
 </project>
