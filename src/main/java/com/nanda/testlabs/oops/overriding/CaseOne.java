@@ -42,6 +42,33 @@ class C extends P {
 	
 }
 
+class PParent{
+	
+	public void display() {
+		
+	}
+	
+}
+
+class CChild extends PParent{
+	
+	public void name() {
+		
+	}
+	
+}
+
+class Two{
+	
+	public static void main(String[] args) {
+		PParent pp = new PParent();
+		pp.display();
+		
+		PParent cc = new CChild();
+		cc.name();
+	}
+}
+
 public class CaseOne {
 
 	public static void main(String[] args) {

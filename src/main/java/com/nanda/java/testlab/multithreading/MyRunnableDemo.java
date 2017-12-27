@@ -14,6 +14,8 @@ public class MyRunnableDemo {
     	    
     	    MyRunnableOne my = new MyRunnableOne();
     	    
+    	    
+    	    
     	    Thread t = new Thread(my);
     	    
     	    
