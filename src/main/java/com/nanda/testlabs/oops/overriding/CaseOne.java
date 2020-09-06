@@ -65,7 +65,7 @@ class Two{
 		pp.display();
 		
 		PParent cc = new CChild();
-		cc.name();
+		//cc.name();
 	}
 }
 

@@ -53,15 +53,7 @@ public class GenericsMethodsTest {
 		
 	}
 	
-	public void nanada(int i) {
-		
-	}
-	
-	public int nanada(int i) {
-		
-		
-		return 0;
-	}
+
 	
 	
 	public void m1(ArrayList<String> al) {

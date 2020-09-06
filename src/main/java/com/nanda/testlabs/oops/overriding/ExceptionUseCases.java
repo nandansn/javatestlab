@@ -34,10 +34,10 @@ class P2{
 
 class C2 extends P2{
 	
-	public void m1() throws Exception {
+	/*public void m1() throws Exception {
 		System.out.println("C1");
 		
-	}
+	}*/
 }
 
 
@@ -70,10 +70,10 @@ class P4{
 
 class C4 extends P4{
 	
-	public void m1() throws Exception {
+	/*public void m1() throws Exception {
 		System.out.println("C1");
 		
-	}
+	}*/
 }
 
 
@@ -105,10 +105,10 @@ class P6{
 
 class C6 extends P6{
 	
-	public void m1() throws InterruptedException{
+	/*public void m1() throws InterruptedException{
 		System.out.println("C1");
 		
-	}
+	}*/
 }
 
 class P7{
