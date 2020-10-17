@@ -10,6 +10,6 @@ public abstract class AbstractClass {
 		System.out.println("two");
 	}
 	
-	public abstract void nanda();
+	protected abstract void nanda();
 
 }
