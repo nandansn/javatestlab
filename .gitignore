@@ -2,4 +2,5 @@
 .project
 .settings/
 target/
+.idea
 src/main/java/com/nanda/pc.java
